@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAB9E5D72C8DE80A001B701E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB9E5D62C8DE80A001B701E /* AppDelegate.swift */; };
+		BAB9E5D92C8DE80A001B701E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB9E5D82C8DE80A001B701E /* SceneDelegate.swift */; };
+		BAB9E5DB2C8DE80A001B701E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB9E5DA2C8DE80A001B701E /* MainViewController.swift */; };
+		BAB9E5E02C8DE80B001B701E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAB9E5DF2C8DE80B001B701E /* Assets.xcassets */; };
+		BAB9E5E32C8DE80B001B701E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BAB9E5E22C8DE80B001B701E /* Base */; };
+		BAB9E5EC2C8DECAE001B701E /* WeatherMiniAppPackage in Frameworks */ = {isa = PBXBuildFile; productRef = BAB9E5EB2C8DECAE001B701E /* WeatherMiniAppPackage */; };
+		BAB9E5EF2C8DF19E001B701E /* TicTacToeMiniAppPackage in Frameworks */ = {isa = PBXBuildFile; productRef = BAB9E5EE2C8DF19E001B701E /* TicTacToeMiniAppPackage */; };
+		BAB9E5F22C8DF241001B701E /* CalculatorMiniAppPackage in Frameworks */ = {isa = PBXBuildFile; productRef = BAB9E5F12C8DF241001B701E /* CalculatorMiniAppPackage */; };
+		BAB9E5F52C8DF4D1001B701E /* GuessNumberMiniAppPackage in Frameworks */ = {isa = PBXBuildFile; productRef = BAB9E5F42C8DF4D1001B701E /* GuessNumberMiniAppPackage */; };
+		BAB9E5F82C8E1246001B701E /* MiniAppInterfaces in Frameworks */ = {isa = PBXBuildFile; productRef = BAB9E5F72C8E1246001B701E /* MiniAppInterfaces */; };
+		BAB9E5FA2C8E1266001B701E /* MiniAppInterfaces in Frameworks */ = {isa = PBXBuildFile; productRef = BAB9E5F92C8E1266001B701E /* MiniAppInterfaces */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BAB9E5D32C8DE80A001B701E /* MiniAppsProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniAppsProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAB9E5D62C8DE80A001B701E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAB9E5D82C8DE80A001B701E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BAB9E5DA2C8DE80A001B701E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BAB9E5DF2C8DE80B001B701E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAB9E5E22C8DE80B001B701E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAB9E5E42C8DE80B001B701E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAB9E5D02C8DE80A001B701E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB9E5EC2C8DECAE001B701E /* WeatherMiniAppPackage in Frameworks */,
+				BAB9E5F22C8DF241001B701E /* CalculatorMiniAppPackage in Frameworks */,
+				BAB9E5EF2C8DF19E001B701E /* TicTacToeMiniAppPackage in Frameworks */,
+				BAB9E5FA2C8E1266001B701E /* MiniAppInterfaces in Frameworks */,
+				BAB9E5F82C8E1246001B701E /* MiniAppInterfaces in Frameworks */,
+				BAB9E5F52C8DF4D1001B701E /* GuessNumberMiniAppPackage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAB9E5CA2C8DE809001B701E = {
+			isa = PBXGroup;
+			children = (
+				BAB9E5D52C8DE80A001B701E /* MiniAppsProject */,
+				BAB9E5D42C8DE80A001B701E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAB9E5D42C8DE80A001B701E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAB9E5D32C8DE80A001B701E /* MiniAppsProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAB9E5D52C8DE80A001B701E /* MiniAppsProject */ = {
+			isa = PBXGroup;
+			children = (
+				BAB9E5D62C8DE80A001B701E /* AppDelegate.swift */,
+				BAB9E5D82C8DE80A001B701E /* SceneDelegate.swift */,
+				BAB9E5DA2C8DE80A001B701E /* MainViewController.swift */,
+				BAB9E5DF2C8DE80B001B701E /* Assets.xcassets */,
+				BAB9E5E12C8DE80B001B701E /* LaunchScreen.storyboard */,
+				BAB9E5E42C8DE80B001B701E /* Info.plist */,
+			);
+			path = MiniAppsProject;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAB9E5D22C8DE80A001B701E /* MiniAppsProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAB9E5E72C8DE80B001B701E /* Build configuration list for PBXNativeTarget "MiniAppsProject" */;
+			buildPhases = (
+				BAB9E5CF2C8DE80A001B701E /* Sources */,
+				BAB9E5D02C8DE80A001B701E /* Frameworks */,
+				BAB9E5D12C8DE80A001B701E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniAppsProject;
+			packageProductDependencies = (
+				BAB9E5EB2C8DECAE001B701E /* WeatherMiniAppPackage */,
+				BAB9E5EE2C8DF19E001B701E /* TicTacToeMiniAppPackage */,
+				BAB9E5F12C8DF241001B701E /* CalculatorMiniAppPackage */,
+				BAB9E5F42C8DF4D1001B701E /* GuessNumberMiniAppPackage */,
+				BAB9E5F72C8E1246001B701E /* MiniAppInterfaces */,
+				BAB9E5F92C8E1266001B701E /* MiniAppInterfaces */,
+			);
+			productName = MiniAppsProject;
+			productReference = BAB9E5D32C8DE80A001B701E /* MiniAppsProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAB9E5CB2C8DE809001B701E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					BAB9E5D22C8DE80A001B701E = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = BAB9E5CE2C8DE809001B701E /* Build configuration list for PBXProject "MiniAppsProject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAB9E5CA2C8DE809001B701E;
+			packageReferences = (
+				BAB9E5EA2C8DECAE001B701E /* XCLocalSwiftPackageReference "../WeatherMiniAppPackage" */,
+				BAB9E5ED2C8DF19E001B701E /* XCLocalSwiftPackageReference "../TicTacToeMiniAppPackage" */,
+				BAB9E5F02C8DF241001B701E /* XCLocalSwiftPackageReference "../CalculatorMiniAppPackage" */,
+				BAB9E5F32C8DF4D1001B701E /* XCLocalSwiftPackageReference "../GuessNumberMiniAppPackage" */,
+				BAB9E5F62C8E1246001B701E /* XCLocalSwiftPackageReference "../MiniAppInterfaces" */,
+			);
+			productRefGroup = BAB9E5D42C8DE80A001B701E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAB9E5D22C8DE80A001B701E /* MiniAppsProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAB9E5D12C8DE80A001B701E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB9E5E02C8DE80B001B701E /* Assets.xcassets in Resources */,
+				BAB9E5E32C8DE80B001B701E /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAB9E5CF2C8DE80A001B701E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB9E5DB2C8DE80A001B701E /* MainViewController.swift in Sources */,
+				BAB9E5D72C8DE80A001B701E /* AppDelegate.swift in Sources */,
+				BAB9E5D92C8DE80A001B701E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BAB9E5E12C8DE80B001B701E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAB9E5E22C8DE80B001B701E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAB9E5E52C8DE80B001B701E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAB9E5E62C8DE80B001B701E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAB9E5E82C8DE80B001B701E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ALBWWMG47L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MiniAppsProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kerikg.MiniAppsProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAB9E5E92C8DE80B001B701E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ALBWWMG47L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MiniAppsProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kerikg.MiniAppsProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAB9E5CE2C8DE809001B701E /* Build configuration list for PBXProject "MiniAppsProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB9E5E52C8DE80B001B701E /* Debug */,
+				BAB9E5E62C8DE80B001B701E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAB9E5E72C8DE80B001B701E /* Build configuration list for PBXNativeTarget "MiniAppsProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB9E5E82C8DE80B001B701E /* Debug */,
+				BAB9E5E92C8DE80B001B701E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		BAB9E5EA2C8DECAE001B701E /* XCLocalSwiftPackageReference "../WeatherMiniAppPackage" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../WeatherMiniAppPackage;
+		};
+		BAB9E5ED2C8DF19E001B701E /* XCLocalSwiftPackageReference "../TicTacToeMiniAppPackage" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../TicTacToeMiniAppPackage;
+		};
+		BAB9E5F02C8DF241001B701E /* XCLocalSwiftPackageReference "../CalculatorMiniAppPackage" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../CalculatorMiniAppPackage;
+		};
+		BAB9E5F32C8DF4D1001B701E /* XCLocalSwiftPackageReference "../GuessNumberMiniAppPackage" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../GuessNumberMiniAppPackage;
+		};
+		BAB9E5F62C8E1246001B701E /* XCLocalSwiftPackageReference "../MiniAppInterfaces" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../MiniAppInterfaces;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BAB9E5EB2C8DECAE001B701E /* WeatherMiniAppPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WeatherMiniAppPackage;
+		};
+		BAB9E5EE2C8DF19E001B701E /* TicTacToeMiniAppPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TicTacToeMiniAppPackage;
+		};
+		BAB9E5F12C8DF241001B701E /* CalculatorMiniAppPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CalculatorMiniAppPackage;
+		};
+		BAB9E5F42C8DF4D1001B701E /* GuessNumberMiniAppPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GuessNumberMiniAppPackage;
+		};
+		BAB9E5F72C8E1246001B701E /* MiniAppInterfaces */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MiniAppInterfaces;
+		};
+		BAB9E5F92C8E1266001B701E /* MiniAppInterfaces */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MiniAppInterfaces;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BAB9E5CB2C8DE809001B701E /* Project object */;
+}
